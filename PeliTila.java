@@ -101,6 +101,3 @@ public class PeliTila {
         throw new JoukkueetonPelaajaPoikkeus();
     }
 }
-
-class EiMaalivahtiaPoikkeus extends RuntimeException{}
-class JoukkueetonPelaajaPoikkeus extends RuntimeException{}
